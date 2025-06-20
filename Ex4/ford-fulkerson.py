@@ -39,7 +39,7 @@ def ford_fulkerson(graph, source, sink):
 
     return max_flow
 
-with open('./config.json', 'r') as f:
+with open('./Ex4/config.json', 'r') as f:
     graph = json.load(f)
 
-print(ford_fulkerson(graph['graph'], 'A', 'N'))
+print(ford_fulkerson(graph['graph'], 'A', 'F'))

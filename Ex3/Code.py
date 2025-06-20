@@ -37,7 +37,7 @@ def bellman_ford(edges, source):
 
 
 if __name__ == "__main__":
-    edges, source = load_graph_from_json("config.json")
+    edges, source = load_graph_from_json("./Ex3/config.json")
     distances, parents, has_cycle = bellman_ford(edges, source)
 
     print("Distances depuis la source :", distances)

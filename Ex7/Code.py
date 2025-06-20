@@ -1,6 +1,6 @@
 import json
 
-def load_sat(filepath="config.json"):
+def load_sat(filepath="./Ex7/config.json"):
     with open(filepath, "r") as f:
         return json.load(f)["SAT"]
 

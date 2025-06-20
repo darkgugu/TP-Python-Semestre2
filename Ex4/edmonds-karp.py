@@ -38,7 +38,7 @@ def edmonds_karp(graph, source, sink):
 
     return max_flow
 
-with open('./config.json', 'r') as f:
+with open('./Ex4/config.json', 'r') as f:
     graph = json.load(f)
 
-print(edmonds_karp(graph['graph'], 'A', 'N'))
+print(edmonds_karp(graph['graph'], 'A', 'F'))

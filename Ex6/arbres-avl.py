@@ -98,7 +98,7 @@ def preOrder(node):
     preOrder(node.left)
     preOrder(node.right)
 
-with open('./config.json', 'r') as f:
+with open('./Ex6/config.json', 'r') as f:
     values = json.load(f)
 
 root = None

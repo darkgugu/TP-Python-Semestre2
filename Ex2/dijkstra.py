@@ -19,7 +19,7 @@ def dijkstra(graph, start):
                 heapq.heappush(queue, (distance, neighbor))
     return distances
 
-with open('./config.json', 'r') as f:
+with open('./Ex2/config.json', 'r') as f:
     graph = json.load(f)
 
 print(dijkstra(graph['graph'], 'A'))

@@ -2,7 +2,7 @@ import json
 from collections import defaultdict
 
 # importation du fichier json
-with open("config.json", "r") as f:
+with open("./Ex1/config.json", "r") as f:
     data = json.load(f)
 
 nodes = data["nodes"]

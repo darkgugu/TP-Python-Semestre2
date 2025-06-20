@@ -1,7 +1,7 @@
 import json
 
 
-def load_tsp(filepath="config.json"):
+def load_tsp(filepath="./Ex7/config.json"):
     with open(filepath, "r") as f:
         return json.load(f)["TSP"]
 

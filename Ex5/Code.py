@@ -4,7 +4,7 @@ import time
 import copy
 
 
-def load_data(filepath="config.json"):
+def load_data(filepath="./Ex5/config.json"):
     with open(filepath, "r") as file:
         config = json.load(file)
     return config["data"]
